@@ -1,0 +1,14 @@
+p {
+  font-size: 2em;
+}
+
+body {
+  background-color: #0099cc
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #000099;
+  color: #0099cc;
+  font-size: 7em;
+}

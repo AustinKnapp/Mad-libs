@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/survey-styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/survey-scripts.js"></script>
+    <title>This is a fake survey!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Surveys are FUN!</h1>
+        <form>
+          <div class="form-group:">
+            <label for="name">Enter Your Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <br>
+          <br>
+          <p>What's your favorite food?</p>
+            <div>
+              <select class="form-control" id="food">
+                <option>Steak</option>
+                <option>Pizza</option>
+                <option>Sushi</option>
+                <option>Fried Chicken</option>
+                <option>Teriyaki</option>
+                <option>Other</option>
+              </select>
+            </div>
+          <br>
+          <br>
+          <p>Of these bands, which one is your fave?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="band" value="The Beatles" checked>
+                The Beatles
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="band" value="The Rolling Stones">
+                  The Rolling Stones
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="band" value="The Who">
+                  The Who
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="band" value="The Pretenders">
+                  The Pretenders
+                </label>
+              </div>
+            <br>
+            <br>
+            <p>What is your date of birth?</p>
+            <div class="form-group">
+              <label for="born">Date of birth:</label>
+              <input id="born" class="form-control" type="date">
+            </div>
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+        </form>
+    </div>
+  </body>
+</html>
