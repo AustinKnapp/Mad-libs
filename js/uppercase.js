@@ -1,13 +1,13 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function(event) {
+  $("#blankYell form").submit(function(event) {
     var yellingInput = $("input#yelling").val().toUpperCase();
     $(".yelling").text(yellingInput);
+    event.preventDefault();
+  });
 
-
-
-
-    $("#story").show();
-
+  $("#blankWhisper form").submit(function(event) {
+    var whisperOutput = $("input#whisper").val().toLowerCase();
+    $(".whisper").text(whisperOutput)
     event.preventDefault();
   });
 });

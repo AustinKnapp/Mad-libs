@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.0.0.js"></script>
-    <script src="js/uppercase.js"></script>
     <title>Yelling</title>
   </head>
   <body>
@@ -13,7 +11,8 @@
       <br>
       <br>
       <br>
-      <div id="blanks">
+
+      <div id="blankYell">
         <form>
           <div class="form-group">
             <label for="yelling">What do you want to yell?</label>
@@ -29,8 +28,28 @@
         <div>
           <h1><span class="yelling"></span></h1>
         </div>
+      <br>
+      <hr>
+      <br>
+
+      <div id="blankWhisper">
+        <form>
+          <div class="form-group">
+            <label for="whisper">What do you want to whisper?</label>
+            <input id="whisper" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-secondary btn-sm">whisper it</button>
+        </form>
+      </div>
+      <br>
+      <hr>
+        <div>
+          <h5><span class="whisper"></span></h5>
+      <hr>
 
 
     </div>
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/uppercase.js"></script>
   </body>
 </html>

@@ -12,5 +12,14 @@
 
 h1 {
   font-size: 5em;
-  color: red;
+  color: #993300;
+}
+
+body {
+  background-color: #666699;
+}
+
+h5 {
+  font-size: 0.6em;
+  color:#ccffff;
 }
